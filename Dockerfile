@@ -25,7 +25,7 @@ WORKDIR /usr/src/dcloud
 #CMD sphinx-quickstart .
 CMD sphinx-build -b html /usr/src/dcloud /usr/src/dcloud/_html
 EXPOSE 8080
-CMD gunicorn -w 1 sphinxserver:app -b 0.0.0.0:8080
+CMD gunicorn -w 1 'sphinxserver:app(home="/usr/src/dcloud/_html") '-b 0.0.0.0:8080
 
 ## Copy a new configuration file setting listen port to 8080
 #COPY ./default.conf /etc/nginx/conf.d/
