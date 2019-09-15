@@ -11,10 +11,13 @@ ENV PORT=8080
 RUN apk add --update --no-cache \
         python3 \
         py3-pip \
+ #       nginx \
         make && \
         pip3 install --upgrade pip && \
         pip3 install sphinx sphinx_rtd_theme recommonmark sphinx-server gunicorn && \
-        mkdir -p /usr/src/dcloud/_html
+        mkdir -p /usr/src/dcloud/_html 
+#        mkdir -p /run/nginx && \
+#        touch /run/nginx/nginx.pid
 
 #RUN mkdir -p /run/nginx
 COPY . /usr/src/dcloud
@@ -25,7 +28,7 @@ WORKDIR /usr/src/dcloud
 #CMD sphinx-quickstart .
 CMD sphinx-build -b html /usr/src/dcloud /usr/src/dcloud/_html
 EXPOSE 8080
-CMD gunicorn -w 1 'sphinxserver:app(home="/usr/src/dcloud/_html") '-b 0.0.0.0:8080
+CMD gunicorn -w 1 'sphinxserver:app(home="/usr/src/dcloud") '-b 0.0.0.0:8080
 
 ## Copy a new configuration file setting listen port to 8080
 #COPY ./default.conf /etc/nginx/conf.d/
