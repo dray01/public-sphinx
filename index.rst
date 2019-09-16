@@ -16,6 +16,7 @@ Welcome to dcloud's documentation!
    :hidden:
 
    _posts/my_first_post.rst
+   _posts/my_second_post.rst
 
 Indices and tables
 ==================
