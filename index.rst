@@ -17,6 +17,7 @@ Welcome to dcloud's documentation!
 
    _posts/my_first_post.rst
    _posts/my_second_post.rst
+   _posts/my_third_post.rst
 
 Indices and tables
 ==================
