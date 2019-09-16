@@ -1,8 +1,6 @@
 FROM alpine:3.7
 LABEL description "Sphinx documentation tool"
 
-# Rewrite default value
-
 ENV SPHINX_DEFAULT_THEME sphinx_rtd_theme
 
 # Sphinx-quickstart default value
