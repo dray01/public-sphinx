@@ -14,7 +14,7 @@ RUN apk add --update --no-cache \
         nginx \
         make && \
         pip3 install --upgrade pip && \
-        pip3 install sphinx sphinx_rtd_theme recommonmark sphinx-server && \
+        pip3 install sphinx sphinx_rtd_theme recommonmark && \
         mkdir -p /usr/src/dcloud/_html && \
         mkdir -p /run/nginx && \
         touch /run/nginx/nginx.pid
