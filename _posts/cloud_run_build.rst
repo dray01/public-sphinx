@@ -9,5 +9,5 @@ An easy alternative would be to utilise Google Cloud Storage with static HTML ho
 Serverless and Kubernetes is simply a little more interesting to me.
 
 
-.. code-block:: json
+.. code-block:: yaml
    :linenos:

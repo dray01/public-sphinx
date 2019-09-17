@@ -26,9 +26,9 @@ First things first, this is a personal site and any thoughts/comments are my own
 
 Now with that out of the way... Did you know when you sign up for GCP you get $300 credit to get you started?
 Feel free to sign up and check out some of the amazing services available.
-.. note:: Written as of Sep 19.
+*Written as of Sep 19*
 
-Login to the `Google Cloud Platform_ <https://console.cloud.google.com>`_ to get started.
+Login to the `Google Cloud Platform <https://console.cloud.google.com>`_ to get started.
 
 
 Indices and tables
