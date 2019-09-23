@@ -8,6 +8,8 @@ For this purposes of this post I thought it would be kind of neat to build this 
 An easy alternative would be to utilise Google Cloud Storage with static HTML hosting. 
 Serverless and Kubernetes is simply a little more interesting to me.
 
+Blah
+
 
 .. code-block:: yaml
    :linenos:
