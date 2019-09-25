@@ -10,6 +10,7 @@ The obvious and easier alternative would be to utilise Google Cloud Storage with
 Serverless with Kubernetes is just a little more interesting to me...
 
 More on Cloud Run here_.
+
 .. _here: https://cloud.google.com/run/
 
 Now let's get started.
@@ -21,11 +22,11 @@ Build a documentation/blog site based on the Sphinx documentation generator. The
 update content when it is committed to Git. 
 
 Software Used:
-- *Cloud Run*
-- *Cloud Build*
-- *Github*
-- *Sphinx*
-- *Nginx*
+|- *Cloud Run*
+|- *Cloud Build*
+|- *Github*
+|- *Sphinx*
+|- *Nginx*
 
 Sphinx Documentation_.
 
