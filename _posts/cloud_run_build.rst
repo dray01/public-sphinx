@@ -21,15 +21,23 @@ Build a documentation/blog site based on the Sphinx documentation generator. The
 update content when it is committed to Git. 
 
 Software Used:
+
 *Cloud Run*
+
 *Cloud Build*
+
 *Github*
+
 *Sphinx*
+
 *Nginx*
 
 Sphinx Documentation_.
+
 .. _Documentation: http://www.sphinx-doc.org/en/master/
+
 ReStructured Text DocumCheatsheet_
+
 .. _Cheatsheet: https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
 
 .. code-block:: yaml
