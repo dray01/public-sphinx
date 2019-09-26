@@ -22,11 +22,12 @@ Build a documentation/blog site based on the Sphinx documentation generator. The
 update content when it is committed to Git. 
 
 Software Used
-- *Cloud Run*
-- *Cloud Build*
-- *Github*
-- *Sphinx*
-- *Nginx*
+
+-  *Cloud Run*
+-  *Cloud Build*
+-  *Github*
+-  *Sphinx*
+-  *Nginx*
 
 Sphinx Documentation_.
 
