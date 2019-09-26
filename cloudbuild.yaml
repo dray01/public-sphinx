@@ -1,7 +1,7 @@
 steps:
 - name: gcr.io/cloud-builders/docker
-  args: ['build', '-t', 'gcr.io/$PROJECT_ID/cloudrun-dcloud:${SHORT_SHA}', '.']
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/<Service-Name>:${SHORT_SHA}', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ["push", "gcr.io/$PROJECT_ID/cloudrun-dcloud"]
+  args: ["push", "gcr.io/$PROJECT_ID/<image-repo-name>"]
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['beta', 'run', 'deploy', 'cloudrun-dcloud', '--image', 'gcr.io/$PROJECT_ID/cloudrun-dcloud:${SHORT_SHA}', '--platform', 'managed', '--region', 'us-central1', '--allow-unauthenticated']
+  args: ['beta', 'run', 'deploy', '<service-name>', '--image', 'gcr.io/$PROJECT_ID/<image-repo-name>:${SHORT_SHA}', '--platform', 'managed', '--region', 'us-central1', '--allow-unauthenticated']
