@@ -20,13 +20,13 @@ Welcome to dcloud!
 The Site....
 ===============
 
-Basically, this site is something I setup to share my learnings on GCP and ramblings/configurations on consuming different services.
+Basically, this site is something I setup to share my learnings on GCP and ramblings/configurations on consuming different services available in GCP.
 
 First things first, this is a personal site and any thoughts/comments are my own and not that of my employer.
 
 Now with that out of the way... Did you know when you sign up for GCP you get $300 credit to get you started?
 Feel free to sign up and check out some of the amazing services available.
-*Written as of Sep 19*
+
 
 Login to the `Google Cloud Platform <https://console.cloud.google.com>`_ to get started.
 
