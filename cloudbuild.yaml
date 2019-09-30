@@ -4,4 +4,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ["push", "gcr.io/$PROJECT_ID/sphinx"]
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['beta', 'run', 'deploy', 'my-service', '--image', 'gcr.io/$PROJECT_ID/sphinx:${SHORT_SHA}', '--platform', 'managed', '--region', 'us-central1', '--allow-unauthenticated']
+  args: ['beta', 'run', 'deploy', 'sphinx', '--image', 'gcr.io/$PROJECT_ID/sphinx:${SHORT_SHA}', '--platform', 'managed', '--region', 'us-central1', '--allow-unauthenticated']
